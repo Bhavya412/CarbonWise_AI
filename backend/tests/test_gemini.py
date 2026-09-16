@@ -57,7 +57,7 @@ def test_fallback_mode_when_client_none(sample_input):
     assert "Your estimated annual carbon footprint" in fallback_exp
     
     fallback_ans = gemini_service.answer_question("Test question?")
-    assert "Thank you for asking about" in fallback_ans
+    assert "Regarding your query on" in fallback_ans
     
     # Restore client
     gemini_service.client = orig_client

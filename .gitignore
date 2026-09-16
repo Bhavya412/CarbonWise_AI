@@ -35,6 +35,8 @@ backend/.env
 # Models (trained binaries)
 *.joblib
 *.pkl
+!models/carbon_emission_pipeline.joblib
+!backend/models/carbon_emission_pipeline.joblib
 
 # Node / React
 node_modules/
