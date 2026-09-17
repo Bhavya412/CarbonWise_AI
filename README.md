@@ -144,3 +144,10 @@ Open `http://localhost:3000` in your browser.
 - `GET /api/ml/metrics`: Return evaluated MAE, RMSE, R² scores
 - `GET /api/ml/features`: Return logical feature importances
 - `POST /api/assistant`: Interactive Gemini AI sustainability assistant
+
+# CarbonWise AI — AI-Powered Carbon Emission Prediction & Sustainability Platform
+
+**Live Demo:** https://carbon-wise-ai-beta.vercel.app/
+
+**One-Line Description**:
+"CarbonWise AI uses supervised machine learning to predict personal carbon emissions from 19 lifestyle and consumption patterns, identify influential factors, simulate alternative choices, and provide personalized sustainability guidance, with Google Gemini used as an optional Generative AI explanation layer."
